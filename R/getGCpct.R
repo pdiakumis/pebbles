@@ -1,3 +1,23 @@
+#' Get GC percentages at specific genomic positions
+#'
+#' Gets GC percentages at specific genomic positions
+#' Computes the GC percentages for a set of genomic positions along a
+#' chromosome. The GC percentage is the proportion of GC nucleotides in a
+#' 1000 base window centered at the genomic position.
+#'
+#'
+#' @param chrom Chromosome of interest. Only one chromosome can be
+#'   specified at a time. For humans it can be 1-22, X(23), Y(24) or MT(25).
+#' @param pos Genomic positions in the chromosome of interest
+#' @param gbuild Genome build. Available builds are hg19 and hg38 for humans.
+#' @return A vector of GC percentage values corresponding to the genomic positions.
+#' @examples
+#' \dontrun{
+#' pos <- sort(sample(249250000, 10))
+#' getGCpct(1, pos)
+#' getGCpct(1, pos, "hg19")
+#' }
+#' @export
 getGCpct <- function(chrom, pos, gbuild=c("hg19", "hg38")) {
     gbuild <- match.arg(gbuild)
     # check that the chromosome is valid

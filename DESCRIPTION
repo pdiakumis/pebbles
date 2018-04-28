@@ -10,5 +10,7 @@ Description: Provides GC percentage of a 1 kilobase window at a genomic
   NOTE: This is a modified version of <https://github.com/veseshan/pctGCdata>,
   where I've simply deleted the mouse and hg18 genomes for convenience and speed.
 License: GPL (>= 2)
+Encoding: UTF-8
 LazyData: true
 NeedsCompilation: no
+RoxygenNote: 6.0.1
