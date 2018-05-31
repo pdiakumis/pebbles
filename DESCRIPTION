@@ -2,7 +2,7 @@ Package: pebbles
 Type: Package
 Title: Datasets for running tests and examples in the rock R package
 Description: Contains cancer genomics datasets for running tests and examples in the
-  rock R package (https://github.com/umccr/rock)
+  rock R package (https://github.com/umccr/rock).
 Version: 0.0.0.1
 Date: 2018-06-01
 Authors@R: person("Peter", "Diakumis", email = "peterdiakumis@gmail.com", role = c("cre"))
