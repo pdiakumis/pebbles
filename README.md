@@ -1,7 +1,4 @@
-# umccr.facets.gc
+# pebbles
 
-* __NOTE:__ This is a modified version of <https://github.com/veseshan/pctGCdata>,
-  where I've simply deleted the mouse and hg18 genomes for convenience and speed.
-* Contains R datasets of GC percentages for human genomes.
-* Provides the data needed to GC normalize tumor-normal log-ratio.
-Package facets (<https://github.com/veseshan/facets>) depends on it.
+This R package contains mini datasets for running tests and
+examples in the [rock](https://github.com/umccr/rock) R package.

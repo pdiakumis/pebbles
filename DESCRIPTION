@@ -1,16 +1,14 @@
-Package: umccr.facets.gc
+Package: pebbles
 Type: Package
-Title: Datasets of GC percentages for human genomes
-Version: 0.9
-Date: 2018-04-28
-Depends: R (>= 3.0.0)
+Title: Datasets for running tests and examples in the rock R package
+Description: Contains cancer genomics datasets for running tests and examples in the
+  rock R package (https://github.com/umccr/rock)
+Version: 0.0.0.1
+Date: 2018-06-01
 Authors@R: person("Peter", "Diakumis", email = "peterdiakumis@gmail.com", role = c("cre"))
-Description: Provides GC percentage of a 1 kilobase window at a genomic
-  position for different builds of human and mouse genomes.
-  NOTE: This is a modified version of <https://github.com/veseshan/pctGCdata>,
-  where I've simply deleted the mouse and hg18 genomes for convenience and speed.
-License: GPL (>= 2)
+URL: https://github.com/umccr/pebbles
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-NeedsCompilation: no
 RoxygenNote: 6.0.1
+Depends: R (>= 3.0.0)
