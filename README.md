@@ -9,10 +9,11 @@ examples in the [rock](https://github.com/umccr/rock) R package.
   breast carcinoma cell line (available via
   <https://github.com/Illumina/canvas#demo-tumor-normal-enrichment-workflow>)
   were analysed using the [bcbio](https://github.com/bcbio/bcbio-nextgen)
-  toolkit. Processed output from the following files is available:
+  toolkit and/or individual tools. Processed output from the following files is available:
     * [Manta](https://github.com/Illumina/manta) SV calls: "HCC2218_manta.vcf"
     * [FACETS](https://github.com/mskcc/facets) CNV calls: "HCC2218_facets_cncf.tsv"
     * [CNVkit](https://github.com/etal/cnvkit) CNV calls: "HCC2218_cnvkit-call.cns"
+    * [TitanCNA](https://github.com/gavinha/TitanCNA) CNV calls: "HCC2218_titan.segs.tsv"
 
 
 * The above datasets can be accesed with
@@ -22,3 +23,4 @@ examples in the [rock](https://github.com/umccr/rock) R package.
 
 * `?pebbles::chr_info`
 * `?pebbles::circos_data`
+
