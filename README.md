@@ -10,9 +10,10 @@ examples in the [rock](https://github.com/umccr/rock) R package.
   <https://github.com/Illumina/canvas#demo-tumor-normal-enrichment-workflow>)
   were analysed using the [bcbio](https://github.com/bcbio/bcbio-nextgen)
   toolkit and/or individual tools. Processed output from the following files is available:
-    * [Manta](https://github.com/Illumina/manta) SV calls: "HCC2218_manta.vcf"
-    * [FACETS](https://github.com/mskcc/facets) CNV calls: "HCC2218_facets_cncf.tsv"
     * [CNVkit](https://github.com/etal/cnvkit) CNV calls: "HCC2218_cnvkit-call.cns"
+    * [FACETS](https://github.com/mskcc/facets) CNV calls: "HCC2218_facets_cncf.tsv"
+    * [Manta](https://github.com/Illumina/manta) SV calls: "HCC2218_manta.vcf"
+    * [PURPLE](https://github.com/hartwigmedical/hmftools/tree/master/purity-ploidy-estimator) CNV calls: "HCC2218_purple.cnv.tsv"
     * [TitanCNA](https://github.com/gavinha/TitanCNA) CNV calls: "HCC2218_titan.segs.tsv"
 
 
