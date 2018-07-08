@@ -28,7 +28,7 @@
 
 #' Cytoband information
 #'
-#' @usage data(cytoband)
+#' @usage data(cytoband_data)
 #' @docType data
 #' @source <http://hgdownload.cse.ucsc.edu/goldenpath/hg19/database/cytoBand.txt.gz>
 #'
