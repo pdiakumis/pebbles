@@ -25,3 +25,18 @@
 #' * seg_name: chromosome names (1-22, X, Y)
 #' * seg_num: number of chromosomes (24)
 "circos_data"
+
+#' Cytoband information
+#'
+#' @usage data(cytoband)
+#' @docType data
+#' @source <http://hgdownload.cse.ucsc.edu/goldenpath/hg19/database/cytoBand.txt.gz>
+#'
+#' @format Data frame with 5 columns:
+#'
+#' * chrom: chromosome name (1-22, X, Y)
+#' * start: start position
+#' * end: end position
+#' * name: name of cytoband
+#' * stain: giemsa stain
+"cytoband_data"
