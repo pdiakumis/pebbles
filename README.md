@@ -17,6 +17,8 @@ examples in the [rock](https://github.com/umccr/rock) R package.
     * [TitanCNA](https://github.com/gavinha/TitanCNA) CNV calls: "HCC2218_titan.segs.tsv"
 
 
+* COLO829 BAF values from [AMBER](https://github.com/hartwigmedical/hmftools/tree/master/amber) for chr21.
+
 * The above datasets can be accesed with
   `system.file("extdata", <file-name>, package = "pebbles")`.
   
