@@ -19,9 +19,11 @@ examples in the [rock](https://github.com/umccr/rock) R package.
 
 * HCC2218 BAF values from [AMBER](https://github.com/hartwigmedical/hmftools/tree/master/amber).
 
+* AZ300 cancer gene panel.
+
 * The above datasets can be accesed with
   `system.file("extdata", <file-name>, package = "pebbles")`.
-  
+
 ## Exported Data
 
 * `?pebbles::chr_info`
