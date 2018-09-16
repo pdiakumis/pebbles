@@ -18,6 +18,7 @@ examples in the [rock](https://github.com/umccr/rock) R package.
 
 
 * HCC2218 BAF values from [AMBER](https://github.com/hartwigmedical/hmftools/tree/master/amber).
+* HCC2218 CNVkit cnr file (first 1,000 values from chr22)
 
 * AZ300 cancer gene panel.
 
