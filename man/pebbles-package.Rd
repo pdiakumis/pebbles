@@ -6,5 +6,5 @@
 \title{pebbles: test data for rock}
 \description{
 Contains cancer genomics datasets for running tests and examples in the
-rock R package (https://github.com/umccr/rock)
+rock R package (https://github.com/pdiakumis/rock)
 }
