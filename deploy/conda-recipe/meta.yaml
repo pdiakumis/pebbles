@@ -48,5 +48,5 @@ about:
   home: https://github.com/pdiakumis/pebbles
   license: MIT + file LICENSE
   summary: Contains cancer genomics datasets for running tests and examples in the rock R package
-    (https://github.com/pdiakumis/rock).
+    (https://github.com/umccr/rock).
   license_family: MIT
