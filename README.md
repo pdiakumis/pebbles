@@ -1,3 +1,5 @@
+[![Travis build status](https://travis-ci.org/pdiakumis/pebbles.svg?branch=master)](https://travis-ci.org/pdiakumis/pebbles)
+
 # pebbles
 
 This R package contains mini datasets for running tests and
@@ -30,3 +32,8 @@ examples in the [rock](https://github.com/pdiakumis/rock) R package.
 * `?pebbles::chr_info`
 * `?pebbles::circos_data`
 
+## Circos Templates
+
+* Templates for [circos](http://circos.ca/) - also see [rock](https://github.com/umccr/rock) for use cases.
+
+e.g. `system.file("templates", "circos", "circos_sv.conf")`
