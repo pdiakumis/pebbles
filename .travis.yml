@@ -16,7 +16,7 @@ install:
   # Update conda and install packages
   - conda update --yes conda
   - conda config --add channels pdiakumis --add channels bioconda --add channels conda-forge --add channels defaults
-  - conda install --yes conda-build jinja2 anaconda-client
+  - conda install --yes conda-build jinja2 anaconda-client conda-verify
   # Useful for debugging any issues with conda
   - conda info -a
 
