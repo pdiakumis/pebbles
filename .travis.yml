@@ -15,9 +15,10 @@ install:
   # Install miniconda
   - source deploy/install_miniconda.sh
   # Update conda and install packages
-  - conda update --yes --force conda
+  - conda install -c anaconda setuptools # for https://github.com/conda/conda/issues/8149
+  - conda update --yes conda
   - conda config --add channels pdiakumis --add channels bioconda --add channels conda-forge
-  - conda install --yes conda-build jinja2 anaconda-client conda-verify setuptools
+  - conda install --yes conda-build jinja2 anaconda-client conda-verify
 
   # Useful for debugging any issues with conda
   - conda info -a
