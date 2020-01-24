@@ -3,3 +3,6 @@
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^data-raw$
+^deploy$
+^bump\.sh$
+^\.travis\.yml$
