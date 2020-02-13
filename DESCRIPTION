@@ -1,5 +1,5 @@
 Package: pebbles
-Version: 0.0.15
+Version: 0.0.16
 Title: Datasets for running tests and examples in the rock R package
 Description: Contains cancer genomics datasets for running tests and examples in the
   rock R package (https://github.com/umccr/rock).
