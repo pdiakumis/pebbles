@@ -5,4 +5,4 @@
 ^data-raw$
 ^deploy$
 ^bump\.sh$
-^\.travis\.yml$
+^\.github$

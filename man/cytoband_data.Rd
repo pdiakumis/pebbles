@@ -4,14 +4,16 @@
 \name{cytoband_data}
 \alias{cytoband_data}
 \title{Cytoband information}
-\format{Data frame with 5 columns:
+\format{
+Data frame with 5 columns:
 \itemize{
 \item chrom: chromosome name (1-22, X, Y)
 \item start: start position
 \item end: end position
 \item name: name of cytoband
 \item stain: giemsa stain
-}}
+}
+}
 \source{
 \url{http://hgdownload.cse.ucsc.edu/goldenpath/hg19/database/cytoBand.txt.gz}
 }
